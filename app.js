@@ -1,4 +1,16 @@
+//variable
+/*
+let vaso = "agua";
+alert("vaso");
+*/
+
+//prompt
+/*
+let nombre = prompt("cuál es tu nombre?");
+*/
+
 //sumar
+
 /*
 let num1= 3;
 let numb2= 6;
@@ -120,27 +132,53 @@ while (i <= 10) {
 do {
     console.log(i);
     i++;
+
+
 } while (i <= 10);
 */
 
 //sentencia for
+/*
+//hacer una repeticion de texto donde saludemos a esteban 5 veces
+let nam = 1;
 
-let exp1 = 1;
-
-for (exp1; exp1 <= 5; exp1++) {
-    if (exp1 == 4) {
-        continue;
-    }
-    document.write(exp1 + "agregar al diccionario");
+for (nam; nam <= 5; nam++) {
+    document.write(nam + "hola esteban");
 }
+*/
+/*
+//hacer una cadena de numeros la cual iniciara en el 0 y terminara en el 19
+let num2 = 20;
+
+for (let numerito = 0; numerito < num2; numerito++) {
+    document.write(numerito);
+}
+*/
 
 //for in 
 
-//for on
-
-//sentencia switch
 /*
-let mes = prompt("en que mes estas?");
+let nombres = ["pedro,", "juan,", "alberto,", "james"]
+for (let names in nombres) {
+    console.log(names);
+}
+*/
+
+//for of
+/*
+let animales = ["perro,", "gato,", "conejo,", "delfin"]
+
+for (let animal of animales) {
+    document.write(animal);
+}
+*/
+
+//foreach
+HTMLLIElement
+//sentencia switch
+
+/*
+let mes = 3;
 
 switch (mes) {
     case 1:
@@ -161,4 +199,38 @@ switch (mes) {
 
     default:
         console.log("mes no encontrado")
-}*/
+}
+*/
+
+//arrays
+HTMLLIElement
+//funciones
+/*
+//sin variable
+function mensaje() {
+    console.log("hi world1");
+}
+
+mensaje();
+*/
+
+//con variable
+/*
+let msj = "hi world2";
+
+function nMensaje(msj) {
+    console.log(msj);
+}
+
+nMensaje(msj);
+*/
+
+//retornando
+/*
+function nMensaje2(msj2) {
+    return "hi world3";
+}
+
+let msj2 = nMensaje2();
+console.log(msj2);
+*/
