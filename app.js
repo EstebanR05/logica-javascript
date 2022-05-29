@@ -4,6 +4,14 @@ let vaso = "agua";
 alert("vaso");
 */
 
+/*
+//arrays
+
+let animales = ["perro", "gato", "conejo", "pato"];
+
+console.log(animales[2], animales[0]);
+*/
+
 //prompt
 /*
 let nombre = prompt("cuál es tu nombre?");
@@ -202,8 +210,6 @@ switch (mes) {
 }
 */
 
-//arrays
-HTMLLIElement
 //funciones
 /*
 //sin variable
